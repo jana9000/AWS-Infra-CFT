@@ -22,6 +22,6 @@ jobs:
         uses: aws-actions/aws-cloudformation-github-deploy@v1
         with:
           name: jana-infra-stack
-          template: .github/workflow/app-dev.yaml
+          template: .github/workflows/app-dev.yaml
           no-fail-on-empty-changeset: true
     
